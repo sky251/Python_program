@@ -9,5 +9,5 @@ def ThreeD(a, b, c):
 
 col1 = 3
 col2 = 5
-row = 5
+row = 8
 pprint.pprint(ThreeD(col1, col2, row))

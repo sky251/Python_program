@@ -9,7 +9,6 @@
 def takeInput(numbs):
     lst = numbs.split(',')
     tup = tuple(lst)
-    print(lst)
     print(tup)
 
 numbs = input('Enter numers: ')
