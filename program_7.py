@@ -5,13 +5,13 @@
 # 11106
 
 
-def addd(num):
-    n1= num*1
-    n2 = num*2
-    n3 = num*3
-    n4 = num*4
-    total = int(n1) + int(n2)+ int(n3)+ int(n4)
-    print(total)
 
-num = str(9)
-a= addd(num)
+def addd(num, digit):
+    result = 0
+    for i in range(1,num+1):
+        result = result + int(str(digit*i))
+    print(result)
+
+
+digit = input("Enter digit:")
+a= addd(4,digit)

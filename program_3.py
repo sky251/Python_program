@@ -4,16 +4,13 @@
 # Then, the output should be:
 # {1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64}
 
-def dicti(l,n):
-    dic = dict()
-    for num in range(l,n+1):
-        dic[num] = num*num
-    print(dic)
+def dicti(l):
+    j = [i for i in range(l+1)]
+    myDict = {x: x**2 for x in j}
+    print(myDict)
 
 l = int(input("Staring number:"))        
-n = int(input("Ending number:"))
-
-a = dicti(l,n)
+a = dicti(l)
 
 
 

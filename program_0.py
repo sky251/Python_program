@@ -2,11 +2,7 @@
 
 
 def multiply(start,end):
-    lst = []
-    for i in range(start,end):
-        if i%7 == 0:
-            lst.append(i)
-    print(lst)
+    lst = [i for i in range(start,end) if i%7==0]
 
 a = multiply(0,100)                
 
