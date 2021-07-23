@@ -8,7 +8,7 @@ class Addition:
 
     def display(self):
         print("Addition of two numbers = " + str(self.answer))
-  
+
 
   
 firs_num = int(input("Enter your first number: "))
