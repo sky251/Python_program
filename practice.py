@@ -13,7 +13,7 @@ class Addition:
   
 firs_num = int(input("Enter your first number: "))
 sec_num = int(input("Enter your second number: "))
-obj = Addition(firs_num, sec_num)
-  
+
+obj = Addition(firs_num, sec_num)    
 obj.calculate()
 obj.display()
